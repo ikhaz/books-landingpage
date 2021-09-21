@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="../CSS/style.css">
+</head>
+<style>
+    .body{
+        background-image: url(../assets/thereallogin.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+        font-size: 50px;
+        color: black;
+        text-shadow: 1px 1px 5px orange;
+        margin-top: 20px;
+    }
+    .form-control{
+        background: transparent;
+        margin-top: 20px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 20px;
+        border: 0px;
+        border-bottom: 1px solid gray;
+    }
+    .btn-danger{
+        margin-top: 20px;
+        width: 180px;
+        font-size: 19px;
+        background: transparent;
+        margin-left: 283px;
+    }
+    .td{
+        text-decoration: whitesmoke !important;
+    }
+    </style>
+
+<body class="body img"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <img src="../assets/loginlogo.webp" style="width: 130px; height: 130px; border-radius: 100px; margin-top: 90px; margin-left: 310px;">
+                <h1 class="text-center"> Login</h1>
+                <input type="Email" class="form-control" name="email" placeholder="Enter Your Emial">
+                <input type="password" class="form-control" name="password" placeholder="Enter Your Password">
+                <a href="#"><div class="btn btn-danger">Login</div></a>
+                <p class="td" style="margin-top: 20px; text-align: center;">Don't have an account?<a href="../src/signup.html">Signup</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
